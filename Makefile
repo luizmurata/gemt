@@ -1,7 +1,7 @@
-CC = c++
-OPT = -std=c++11 -O3
+CC = nvcc
+OPT =
 
-MAIN = transpose.cpp
+MAIN = transpose.cu
 
 TARGETDIR := bin
 
